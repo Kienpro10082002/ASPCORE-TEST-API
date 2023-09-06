@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yo03NyN/QR6gZeEsvtmWCVg+obkq4J+hJrYOdLo8wHxqsuOK6uN6i8QpqICtfadXVJbJXEKljnagzVUJN0o7hQ==",
+  "success": true,
+  "projectFilePath": "D:\\TEST_ASP DOT NET CORE\\Template_ASP_Core\\Template_ASP_Core\\Template_ASP_Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

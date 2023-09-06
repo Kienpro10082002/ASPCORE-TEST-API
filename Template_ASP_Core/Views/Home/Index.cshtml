@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Data.WeatherForecast>;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if(Model != null) {
+    <h1>Thời gian</h1>
+    <p>@Model.FirstOrDefault().Date</p>
+    <br />
+    @*<h1>Nhiệt độ F</h1>
+    <p>@Model.FirstOrDefault().TemperatureF</p>
+    <br />*@
+    <h1>Nhiệt độ C</h1>
+    <p>@Model.FirstOrDefault().TemperatureC</p>
+    <br />
+    <h1>Loại thời tiết</h1>
+    <p>@Model.FirstOrDefault().Summary</p>
+    <br />
+} else {
+    <p>Không có dữ liệu</p>
+}
